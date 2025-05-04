@@ -8,30 +8,30 @@ A simple and intuitive **To-Do App** built with React. This app allows users to 
 - View the list of to-do items.
 - Delete to-do items when they are completed or no longer needed.
 - Persistent storage using local storage to save to-do items.
-- Navigation between "Home" and "About" pages.
+- Navigation between **"Home"** and **"About"** pages.
 - Responsive design for a seamless user experience.
 
 ---
 
 # Installation
 - To run this project locally, follow these steps:
-1. Clone the repository:
+1. **Clone the repository:**
 ```
 git clone https://github.com/yourusername/todo-list-app.git
 ```
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 ```
 cd todo-list-app
 ```
-3. Install dependencies:
+3. **Install dependencies:**
 ```
 npm install
 ```
-4. Start the development server:
+4. **Start the development server:**
 ```
 npm start
 ```
-5. Open your browser and visit:
+5. **Open your browser and visit:**
 ```
 http://localhost:3000
 ```
@@ -41,26 +41,26 @@ http://localhost:3000
 # Usage
 
 ## Adding a To-Do:
-- Navigate to the "Home" page.
-- Fill in the "Title" and "Description" fields in the "Add a ToDo" section.
-- Click the "Submit" button to add the to-do item to the list.
+- Navigate to the **"Home"** page.
+- Fill in the **"Title"** and **"Description"** fields in the **"Add a ToDo"** section.
+- Click the **"Submit"** button to add the to-do item to the list.
 
 ## Viewing To-Dos:
-- The list of to-do items is displayed below the "Add a ToDo" section on the "Home" page.
+- The list of to-do items is displayed below the **"Add a ToDo"** section on the **"Home"** page.
 
 ## Deleting a To-Do:
-- Each to-do item has a "Delete" button.
-- Click the "Delete" button to remove the to-do item from the list.
+- Each to-do item has a **"Delete"** button.
+- Click the **"Delete"** button to remove the to-do item from the list.
 
 ---
 
 # About Page:
-- Click on the "About" link in the navigation bar to learn more about the app.
+- Click on the **"About"** link in the navigation bar to learn more about the app.
 
 ---
 
 # Components
-- **Header.js:** Displays the navigation bar with links to "Home" and "About". It can optionally include a search bar.
+- **Header.js:** Displays the navigation bar with links to **"Home"** and **"About"**. It can optionally include a search bar.
 - **AddToDo.js:** Provides a form to add new to-do items.
 - **ToDos.js:** Renders the list of to-do items and handles deletion.
 - **ToDoItem.js:** Represents an individual to-do item with a delete button.
@@ -92,6 +92,8 @@ This file ensures that the application is properly set up in the browser, provid
 The app uses React Router for navigation:
 - **/:** Home page with the to-do list and add form.
 - **/about:** About page with information about the app.
+
+---
 
 # Local Storage
 To-do items are stored in the browser's local storage to persist data between sessions. The **TodosWork** state is saved and loaded from local storage using **localStorage.setItem** and **localStorage.getItem**.
